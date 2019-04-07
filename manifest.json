@@ -1,0 +1,17 @@
+{
+    "name": "Redirector",
+    "version": "0.1",
+    "description": "Redirect blocked URIs into another legal ones.",
+    "background": {
+        "scripts": [
+            "redirect.js"
+        ]
+    },
+    "manifest_version": 2,
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>",
+        "tabs"
+    ]
+}
