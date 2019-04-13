@@ -15,7 +15,12 @@ function addRule(pattern, redirectUrl) {
 };
 
 // match pattern for the URLs to redirect
+//Microsoft Career
 addRule("https://www.google.com/recaptcha/api.js*", "https://recaptcha.net/recaptcha/api.js");
+// Coursera
+addRule("https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js", "https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js");
+//add into hosts:  52.84.246.72 d3c33hcgiwev3.cloudfront.net
+
 //addRule("http://*", "https://*");
 
 // redirect function
